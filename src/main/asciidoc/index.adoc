@@ -2,10 +2,33 @@
 
 This is an example output for a service running at http://localhost:8080:
 
-.request
-include::{snippets}/home/http-request.adoc[]
+.Create Post Http Request
+include::{snippets}/post/createPost/http-request.adoc[]
 
-.response
-include::{snippets}/home/http-response.adoc[]
+.Create Post Http response
+include::{snippets}/post/createPost/http-response.adoc[]
 
-As you can see the format is very simple, and in fact you always get the same message.
+.Delete Post Http Request
+include::{snippets}/post/deletePost/http-request.adoc[]
+
+.Delete Post Http response
+include::{snippets}/post/deletePost/http-response.adoc[]
+
+.Get Post by Id Http Request
+include::{snippets}/post/getPostById/http-request.adoc[]
+
+.Get Post by Id Http response
+include::{snippets}/post/deletePost/http-response.adoc[]
+
+.List All Post Http Request
+include::{snippets}/post/getPostById/http-request.adoc[]
+
+.List All Post Http response
+include::{snippets}/post/deletePost/http-response.adoc[]
+
+.Update Post Http Request
+include::{snippets}/post/getPostById/http-request.adoc[]
+
+.Update Post Http response
+include::{snippets}/post/deletePost/http-response.adoc[]
+
