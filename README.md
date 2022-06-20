@@ -20,3 +20,5 @@ Extra challenges:
 
 ## Commands 
 - mvn spring-boot:run
+- docker build -t springio/assingment-solution-0.0.1-SNAPSHOT.
+- docker run -p 8080:8080 springio/assingment-solution-0.0.1-SNAPSHOT
